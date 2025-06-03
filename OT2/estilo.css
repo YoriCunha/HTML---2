@@ -2,30 +2,112 @@
     font-family: 'fonte';
     src: url(pop.ttf);
 }
+
 body {
-   font-family: 'fonte';
-   background-color: #f0f0f0;
+    font-family: 'fonte';
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 11%;
 }
-header{
-    text-align: center;
+header {
+   margin-left: 22px;;
 }
-article{
-    width: 40%;
-    margin: 0 auto;
+header h1 {
+    font-size: 5vh;
+    margin-bottom: 2px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.301);
+    width: 30%;
+}
+
+form {
     margin-top: 4%;
-    padding: 20px;  
-    background-color: white;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-form{
-    width: 100%;
-    margin: 0 auto;
+
+fieldset {
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    border: none;
+    outline: none;
 }
-label{
+
+legend {
+    color: rgb(175, 103, 243);
+    font-size: 2.5vh;
+}
+
+label {
     display: block;
     margin: 10px 0;
 }
-input{
+
+input[type="text"],
+[type="email"],
+[type="password"]{
+    width: 95%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #ccc;
+    font-family: 'fonte';
+}
+select{
+    width: 99.2%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #ccc;
+    font-family: 'fonte';
+}
+input[type="number"],
+[type="date"] {
+    width: 20%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'fonte';
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #ccc;
+}
+
+textarea {
+    width: 96.8%;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #ccc;
+    resize: none;
+    font-family: 'fonte';
+    padding: 5px;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: rgb(175, 103, 243);
+    color: #fff;
     border: none;
     border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(140, 80, 200);
 }
