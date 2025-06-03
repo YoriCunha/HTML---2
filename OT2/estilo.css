@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'fonte';
+    src: url(pop.ttf);
+}
+body {
+   font-family: 'fonte';
+   background-color: #f0f0f0;
+}
+header{
+    text-align: center;
+}
+article{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;  
+    background-color: white;
+    border-radius: 5px;
+}
+form{
+    width: 100%;
+    margin: 0 auto;
+}
+label{
+    display: block;
+    margin: 10px 0;
+}
+input{
+    border: none;
+    border-radius: 5px;
+}
